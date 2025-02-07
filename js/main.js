@@ -241,13 +241,13 @@ Vue.component('product', {
         addReview(productReview) {
             this.reviews.push(productReview)
          },
-         mounted() {
-            eventBus.$on('review-submitted', productReview => {
-                this.reviews.push(productReview)
-            })
-         }
-         
-         
+        },
+        mounted() {
+           eventBus.$on('review-submitted', productReview => {
+               this.reviews.push(productReview)
+           })
+        
+        
         
     },
     computed: {
