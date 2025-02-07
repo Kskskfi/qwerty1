@@ -93,14 +93,14 @@ textarea {
 
 .button-container {
     display: flex;
-    gap: 10px; /* Расстояние между кнопками */
-    margin-top: 30px; /* Отступ сверху */
-    align-items: center; /* Выравнивание по центру по вертикали */
+    gap: 10px;
+    margin-top: 30px; 
+    align-items: center; 
 }
 
 #link {
-    display: block; /* Ссылка занимает всю строку */
-    margin-top: 10px; /* Отступ сверху */
-    text-decoration: none; /* Убираем подчеркивание */
-    color: #1E95EA; /* Цвет ссылки */
+    display: block;
+    margin-top: 10px;
+    text-decoration: none; 
+    color: #1E95EA; 
 }
